@@ -1,0 +1,114 @@
+/* nav-open-btn animation */
+.nav-open-btn.active .line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    
+    
+}
+#overlay1 .fa-chevron-down.active{
+    transform: rotate(180deg);
+}
+#overlay2 .chevron-down2.active{
+    transform: rotate(180deg);
+}
+#overlay3 .chevron-down3.active{
+    transform: rotate(180deg);
+    
+}
+#overlay3 .chevron3.active{
+    transform: translateY(6px);
+    opacity: 1;
+}
+#overlay2 .chevron2.active{
+    transform: translateY(4px);
+    opacity: 1;
+}
+#overlay1 .chevron1.active{
+    transform: translateY(6px);
+    opacity: 1;
+}
+
+.nav-open-btn.active .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+    
+}
+.nav-open-btn.active .line:nth-child(2) {
+    opacity: 0;
+}
+.line{
+    background-color: black;
+}
+.header{
+    box-shadow: 0 0 5px 0;
+}
+.header-overlay.active{
+    transform: translateX(0px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition: transform 0.4s ease-out, visibility 0s;
+    display: block;;
+    
+}
+.header-overlay{
+    transform: translateX(-100%); /* the element is transposed 300px to the left of where it's supposed to be */
+    opacity: 0;
+    transition: transform 0.3s ease-out , visibility 0s;
+    display: hidden;
+    width: 100%;
+    
+}
+.about.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 300ms;  
+}
+
+.services.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 350ms;  
+}
+.company.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 400ms;  
+}
+.careers.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 450ms;  
+}
+.contact.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 500ms;  
+}
+.mission.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 550ms;  
+}
+.question.active{
+    transform: translateY(1px); /* the element is returned to where it's supposed to be */
+    opacity: 1;
+    transition-delay: 600ms;  
+}
+
+/* nav-open-btn animation */
+
+
+
+
+/* .nav-open-btn .line{
+    transform-origin: left;
+    animation: menuBtn 700ms ease-in-out alternate infinite;
+}
+.nav-open-btn .line:nth-child(1){
+    animation-delay: 300ms;
+}
+.nav-open-btn .line:nth-child(3){
+    animation-delay: 500ms;
+}
+.nav-open-btn.animation .line  { animation-play-state: paused;}
+@keyframes menuBtn{
+    0% {transform: scaleX(1);}
+    100% {transform: scaleX(0.5);}
+} */
