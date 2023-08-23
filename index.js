@@ -1,11 +1,30 @@
-//navigation button anition togle start
+//navigation button anition togle start / header overlay code
 let openBtn = document.querySelector('.nav-open-btn')
 let line = document.querySelectorAll('.line')
+let headova = document.querySelector('.header-overlay')
+let body = document.querySelector('.body')
+let about = document.querySelector('.about')
+let services = document.querySelector('.services')
+let company = document.querySelector('.company')
+let careers = document.querySelector('.careers')
+let contact = document.querySelector('.contact')
+let mission = document.querySelector('.mission')
+let question = document.querySelector('.question')
 
 openBtn.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     openBtn.classList.toggle("active");
+    headova.classList.toggle("active");
+    about.classList.toggle("active");
+    company.classList.toggle("active");
+    services.classList.toggle("active");
+    careers.classList.toggle("active");
+    contact.classList.toggle("active");
+    mission.classList.toggle("active");
+    question.classList.toggle("active");
+    // headova.classList.toggle("hidden");
+    body.classList.toggle("overflow-hidden")
 }
 //navigation button anition togle end
 
@@ -41,5 +60,6 @@ overlay3.addEventListener('click', ()=>{
     chevron3.classList.toggle('active')
     
 })
-        
+
+
 
