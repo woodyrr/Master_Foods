@@ -1,0 +1,62 @@
+/* nav-open-btn animation */
+.nav-open-btn.active .line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+    width: 37px;
+    
+}
+#overlay1 .fa-chevron-down.active{
+    transform: rotate(180deg);
+}
+#overlay2 .chevron-down2.active{
+    transform: rotate(180deg);
+}
+#overlay3 .chevron-down3.active{
+    transform: rotate(180deg);
+    
+}
+#overlay3 .chevron3.active{
+    transform: translateY(6px);
+    opacity: 1;
+}
+#overlay2 .chevron2.active{
+    transform: translateY(4px);
+    opacity: 1;
+}
+#overlay1 .chevron1.active{
+    transform: translateY(6px);
+    opacity: 1;
+}
+
+.nav-open-btn.active .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+    width: 37px;
+}
+.nav-open-btn.active .line:nth-child(2) {
+    opacity: 0;
+}
+.line{
+    background-color: black;
+}
+.header{
+    box-shadow: 0 0 5px 0;
+}
+/* nav-open-btn animation */
+
+
+
+
+/* .nav-open-btn .line{
+    transform-origin: left;
+    animation: menuBtn 700ms ease-in-out alternate infinite;
+}
+.nav-open-btn .line:nth-child(1){
+    animation-delay: 300ms;
+}
+.nav-open-btn .line:nth-child(3){
+    animation-delay: 500ms;
+}
+.nav-open-btn.animation .line  { animation-play-state: paused;}
+@keyframes menuBtn{
+    0% {transform: scaleX(1);}
+    100% {transform: scaleX(0.5);}
+} */
