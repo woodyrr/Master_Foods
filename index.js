@@ -10,6 +10,7 @@ let careers = document.querySelector('.careers')
 let contact = document.querySelector('.contact')
 let mission = document.querySelector('.mission')
 let question = document.querySelector('.question')
+let header = document.querySelector('.hearder')
 
 openBtn.addEventListener("click", mobileMenu);
 
